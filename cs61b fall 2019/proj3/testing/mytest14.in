@@ -1,0 +1,11 @@
+>init
+<<<
++ f.txt hello.txt
+> add f.txt
+<<<
+> commit hello
+<<<
+> branch other
+<<<
+> rm-branch other
+<<<

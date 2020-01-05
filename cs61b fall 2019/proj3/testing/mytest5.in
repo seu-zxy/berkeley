@@ -1,0 +1,10 @@
+> init
+<<<
++ b.txt luck.txt
+> add b.txt
+<<<
+> commit 1
+<<<
+> commit 2
+No changes added to the commit.
+<<<

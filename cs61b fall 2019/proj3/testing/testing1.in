@@ -1,0 +1,6 @@
+#init
+>init
+<<<
++ hello.txt hello.txt
+- hello.txt
+* hello.txt

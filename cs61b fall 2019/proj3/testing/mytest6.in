@@ -1,0 +1,11 @@
+> init
+<<<
++ g.txt hello.txt
+> add g.txt
+<<<
+> commit hello
+<<<
++ h.txt world.txt
+> add h.txt g.txt
+Incorrect operands.
+<<<

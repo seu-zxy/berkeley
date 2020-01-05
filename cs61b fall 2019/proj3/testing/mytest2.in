@@ -1,0 +1,13 @@
+> init
+<<<
++ hello.txt hello.txt
++ hello.txt wug.txt
+
+> add hello.txt
+<<<
+> commit hello
+<<<
+
+> rm hello.txt
+<<<
+* hello.txt

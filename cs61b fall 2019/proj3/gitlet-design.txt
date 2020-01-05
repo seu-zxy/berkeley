@@ -1,0 +1,25 @@
+Gitlet Design Document
+----------------------
+about head:  need a int to save the latest committed hash code
+staged area:
+give it a folder in git
+save blob and its title(as a format of what? hashcode to save is fine
+commit area:really save all the hash code about commit
+
+init: have a commit initialed pointed to null(all file null)
+add: if new add to staged area, if not just compare to the now header's file,if changed add or do nothing
+commit: clone parent then do the change as the staged area. remember to clear the staged space
+
+Classes and Data Structures
+---------------------------
+to save all the commit version, we may use arraylist
+for branch:tree is better , use it find to get the version we want to get to
+current and we have tracked: comparison : need to save the name, it is used to track the file
+
+
+Algorithms
+----------
+
+
+Persistence
+-----------

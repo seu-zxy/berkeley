@@ -1,0 +1,19 @@
+>init
+<<<
++ h.txt world.txt
+> add h.txt
+<<<
+> status
+=== Branches ===
+*master
+
+=== Staged Files ===
+h.txt
+
+=== Removed Files ===
+
+=== Modifications Not Staged For Commit ===
+
+=== Untracked Files ===
+
+<<<
