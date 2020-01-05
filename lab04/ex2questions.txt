@@ -1,0 +1,7 @@
+The register representing the variable k.
+t0 or t3 is better
+The registers acting as pointers to the source and dest arrays.
+source t5    dest t6
+The assembly code for the loop found in the C code.
+How the pointers are manipulated in the assembly code.
+  get their address, then load word from the address plus im;    load address for dest, the same procedure but with sw;

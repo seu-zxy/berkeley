@@ -1,0 +1,9 @@
+1.What do the .data, .word, .text directives mean (i.e. what do you put in each section)?
+ In section data you put the values you will use ("global values"), .word is the size of the data
+ .text is your code
+2Run the program to completion. What number did the program output? What does this number represent?
+fibonachi       34  t2
+3.At what address is n stored in memory? Hint: Look at the contents of the registers.
+0x10000008
+4. change n to 12
+

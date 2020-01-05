@@ -1,0 +1,20 @@
+//add t1, s0, x0      # load the address of the array of current node into t1
+lw t1,0 (s0)
+
+//add t1, t1, t0      # offset the array address by the count
+addi t3, x0, 4
+    mul t0, t0, t3
+    add t1, t1, t0
+    div t0, t0, t3    
+
+   // ls a0, 8(s0)        # load the address of the next node into a0
+    lw a0, 8(s0)
+//lw a1, 0(s1)        # put the address of the function back into a1 to prepare for the recursion
+   add a1, s1, x0
+
+//    jal  map            # recurse
+lw ra, 0(sp)
+    lw s1, 4(sp)
+    lw s0, 8(sp)
+    addi sp, sp, 12
+    jal map
